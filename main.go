@@ -12,4 +12,8 @@ func main() {
 	var Persona1 user.Persona
 	Persona1.Scanear()
 	Persona1.Imprimir()
+
+	var Empleado1 user.Empleado
+	Empleado1.ScanearSueldo()
+	Empleado1.ImprimirSueldo()
 }

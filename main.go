@@ -1,7 +1,17 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
 
+
+	"github.com/robertobouses/struct_ejercicios/user"
+)
+
+func main() {
+	fmt.Println("programa de struct ejercicios")
+
+	var Persona1 user.Persona
+=======
 type Persona struct {
 	nombre string
 	edad   int
@@ -22,6 +32,7 @@ func main() {
 	fmt.Println("Viejo")
 
 	var Persona1 Persona
+
 	Persona1.Scanear()
 	Persona1.Imprimir()
 }
